@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Osata</string>
+
+    <!-- Form Login -->
+    <string name="different_login">Or</string>
+    <string name="login_text">Login</string>
+    <string name="register_text">Register</string>
+    <string name="pass_forgot">Lupa Password?</string>
+    <string name="pass_text">Password</string>
+    <string name="email_text">E-Mail</string>
+
+    <!-- Form Register -->
+    <string name="nama_text">Nama</string>
+    <string name="phone">Nomor Telepon</string>
+    <string name="city">Kota Asal</string>
+    <string name="dob">Tanggal Lahir</string>
+    <string name="gender">Jenis Kelamin</string>
+    <string name="already_registered">Already have an account? Sign in</string>
+
+    <!-- Warning Error -->
+    <string name="error_invalid_email">Invalid Email</string>
+    <string name="error_invalid_password">The password is too short</string>
+    <string name="error_incorrect_password">Email or password incorrect</string>
+    <string name="error_field_required">Required</string>
+</resources>
