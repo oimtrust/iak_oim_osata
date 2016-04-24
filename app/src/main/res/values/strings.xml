@@ -9,6 +9,7 @@
     <string name="pass_text">Password</string>
     <string name="email_text">E-Mail</string>
 
+
     <!-- Form Register -->
     <string name="nama_text">Nama</string>
     <string name="phone">Nomor Telepon</string>
@@ -22,4 +23,30 @@
     <string name="error_invalid_password">The password is too short</string>
     <string name="error_incorrect_password">Email or password incorrect</string>
     <string name="error_field_required">Required</string>
+
+    <!-- Item Navigation Drawer -->
+    <string name="beranda">Beranda</string>
+    <string name="peta">Peta</string>
+    <string name="wisata">Wisata</string>
+    <string name="layanan">Layanan</string>
+    <string name="gallery">Gallery</string>
+    <string name="profile">Akun Anda</string>
+    <string name="logout">Log Out</string>
+    <string name="nama">Nama Lengkap</string>
+    <string name="email">E-Mail</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="about_profile">About</string>
+
+    <!-- Form Services -->
+    <string name="nama_wisata">Nama Wisata</string>
+    <string name="district">Provinsi</string>
+    <string name="photo_choice">Pilih Foto</string>
+    <string name="description">Deskripsi dan Alamat</string>
+    <string name="send">Kirim</string>
+    <string name="add_wisata">Tambahkan Lokasi Wisata Anda</string>
+
+    <!-- Form Maps -->
+    <string name="maps">Ini Layout Maps</string>
+
 </resources>

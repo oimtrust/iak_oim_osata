@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/beranda"
+            android:icon="@drawable/ic_home"
+            android:title="@string/beranda"/>
+        <item
+            android:id="@+id/layanan"
+            android:icon="@drawable/ic_service"
+            android:title="@string/layanan"/>
+        <item
+            android:id="@+id/peta"
+            android:icon="@drawable/ic_place"
+            android:title="@string/peta"/>
+        <item
+            android:id="@+id/status"
+            android:icon="@drawable/ic_view_list"
+            android:title="@string/wisata"/>
+        <item
+            android:id="@+id/gallery"
+            android:icon="@drawable/ic_gallery"
+            android:title="@string/gallery"/>
+    </group>
+
+</menu>

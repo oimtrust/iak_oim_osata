@@ -39,7 +39,6 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
-        getSupportActionBar().hide();
 
         String list[]={"-Pilih Gender-", "Laki-laki","Perempuan"};
 
@@ -176,6 +175,8 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
 
             case R.id.tv_already_have:
                 startActivity(new Intent(getApplicationContext(), LoginActivity.class));
+                finish();
+                System.exit(0);
                 break;
 
             case R.id.tv_dobRegister:
