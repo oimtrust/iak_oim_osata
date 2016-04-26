@@ -17,7 +17,7 @@
             android:icon="@drawable/ic_place"
             android:title="@string/peta"/>
         <item
-            android:id="@+id/status"
+            android:id="@+id/wisata"
             android:icon="@drawable/ic_view_list"
             android:title="@string/wisata"/>
         <item

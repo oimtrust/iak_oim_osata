@@ -49,4 +49,10 @@
     <!-- Form Maps -->
     <string name="maps">Ini Layout Maps</string>
 
+    <!-- Form Wisata-->
+    <string name="wisata_this">Ini Layout Wisata</string>
+
+    <!-- Form Gallery-->
+    <string name="gallery_this">Ini Layout Gallery</string>
+
 </resources>

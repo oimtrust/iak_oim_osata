@@ -30,7 +30,9 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".fragment.FragmentMaps"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".fragment.FragmentTour" />
+        <activity android:name=".fragment.FragmentGallery"></activity>
     </application>
 
 </manifest>

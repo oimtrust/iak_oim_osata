@@ -11,11 +11,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Toast;
 
+import com.oimtrust.osata.fragment.FragmentGallery;
 import com.oimtrust.osata.fragment.FragmentHome;
 import com.oimtrust.osata.fragment.FragmentMaps;
 import com.oimtrust.osata.fragment.FragmentService;
+import com.oimtrust.osata.fragment.FragmentTour;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
 
@@ -103,14 +104,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 fragmentClass   = FragmentMaps.class;
                 break;
 
-            case R.id.status:
+            case R.id.wisata:
                 setTitle("Status");
-                Toast.makeText(getApplicationContext(), "Ini menu Status", Toast.LENGTH_LONG).show();
+                fragmentClass   = FragmentTour.class;
                 break;
 
             case R.id.gallery:
                 setTitle("Galeri");
-                Toast.makeText(getApplicationContext(), "Ini menu Layanan", Toast.LENGTH_LONG).show();
+                fragmentClass   = FragmentGallery.class;
                 break;
         }
 
