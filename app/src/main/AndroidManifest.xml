@@ -35,7 +35,9 @@
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".fragment.FragmentGallery"
             android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".activity.DetailGalleryActivity"></activity>
+        <activity
+            android:name=".activity.DetailGalleryActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

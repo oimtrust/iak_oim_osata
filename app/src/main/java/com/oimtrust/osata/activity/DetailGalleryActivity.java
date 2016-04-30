@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.widget.ImageView;
 
 import com.oimtrust.osata.R;
@@ -22,6 +23,12 @@ public class DetailGalleryActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail_gallery);
 
+        Toolbar toolbar     = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
+        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_close);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         imgDetail           = (ImageView) findViewById(R.id.img_detail_Gallery);
         galleryURL          = getIntent().getStringExtra(KEY_IMAGE);
         photoViewAttacher   = new PhotoViewAttacher(imgDetail);
@@ -33,5 +40,11 @@ public class DetailGalleryActivity extends AppCompatActivity {
         Intent intent   = new Intent(activity, DetailGalleryActivity.class);
         intent.putExtra(KEY_IMAGE, galleryURL);
         activity.startActivityForResult(intent, 0);
+    }
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        finish();
+        return false;
     }
 }

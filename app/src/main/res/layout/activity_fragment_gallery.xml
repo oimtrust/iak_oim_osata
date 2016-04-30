@@ -3,21 +3,37 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="?attr/actionBarSize"
     tools:context="com.oimtrust.osata.fragment.FragmentGallery">
 
-
-
-    <GridView
-        android:id="@+id/gallery_gridView"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:columnWidth="100dp"
-        android:numColumns="2"
-        android:verticalSpacing="5dp"
-        android:horizontalSpacing="5dp"
-        android:gravity="center"
-        android:layout_centerHorizontal="true"></GridView>
+        android:orientation="vertical"
+        android:background="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <GridView
+                    android:id="@+id/gallery_gridView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:columnWidth="100dp"
+                    android:numColumns="2"
+                    android:verticalSpacing="5dp"
+                    android:horizontalSpacing="5dp"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"></GridView>
+
+            </LinearLayout>
+    </LinearLayout>
+
+
+
 
 
 

@@ -33,7 +33,6 @@ public class FragmentGallery extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View galleryRoot = inflater.inflate(R.layout.activity_fragment_gallery, container, false);
 
-
         itemAdapter = new GalleryItemAdapter(getActivity(), galleryImg);
 
         GridView itemGalleryGridview = (GridView) galleryRoot.findViewById(R.id.gallery_gridView);
