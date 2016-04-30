@@ -31,8 +31,11 @@
         <activity
             android:name=".fragment.FragmentMaps"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".fragment.FragmentTour" />
-        <activity android:name=".fragment.FragmentGallery"></activity>
+        <activity android:name=".fragment.FragmentTour"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".fragment.FragmentGallery"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".activity.DetailGalleryActivity"></activity>
     </application>
 
 </manifest>
