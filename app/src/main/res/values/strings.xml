@@ -48,11 +48,13 @@
 
     <!-- Form Maps -->
     <string name="maps">Ini Layout Maps</string>
+    <string name="full_maps">Peta Seluruh Wisata</string>
 
     <!-- Form Wisata-->
     <string name="wisata_this">Ini Layout Wisata</string>
 
     <!-- Form Gallery-->
     <string name="gallery_this">Ini Layout Gallery</string>
+    <string name="title_activity_maps">Map</string>
 
 </resources>
