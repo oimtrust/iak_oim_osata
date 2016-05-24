@@ -90,7 +90,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         switch (id){
             case R.id.beranda:
+<<<<<<< HEAD
+                setTitle("Beranda");
+=======
                 setTitle("OSATA");
+>>>>>>> a052071bc2c498caf1f9c2af4687ee194ea7004e
                 fragmentClass   = FragmentHome.class;
                 break;
 
@@ -105,7 +109,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
 
             case R.id.wisata:
+<<<<<<< HEAD
+                setTitle("Wisata");
+=======
                 setTitle("Status");
+>>>>>>> a052071bc2c498caf1f9c2af4687ee194ea7004e
                 fragmentClass   = FragmentTour.class;
                 break;
 

@@ -8,8 +8,13 @@
          location permissions for the 'MyLocation' functionality. 
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<<<<<<< HEAD
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+=======
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+>>>>>>> a052071bc2c498caf1f9c2af4687ee194ea7004e
 
     <application
         android:allowBackup="true"
@@ -61,6 +66,10 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
+<<<<<<< HEAD
+        <activity android:name=".fragment.FragmentTourDetail"></activity>
+=======
+>>>>>>> a052071bc2c498caf1f9c2af4687ee194ea7004e
     </application>
 
 </manifest>

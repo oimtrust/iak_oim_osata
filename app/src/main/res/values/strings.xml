@@ -50,8 +50,17 @@
     <string name="maps">Ini Layout Maps</string>
     <string name="full_maps">Peta Seluruh Wisata</string>
 
+<<<<<<< HEAD
+    <!-- Form Tour/ Wisata-->
+    <string name="wisata_this">Ini Layout Wisata</string>
+    <string name="no_tour">Tidak ada tempat wisata yang tersedia</string>
+    <string name="title_tour">Nama Wisata</string>
+    <string name="content_tour">Tentang Wisata</string>
+    <string name="img_detail">Foto Lokasi Wisata</string>
+=======
     <!-- Form Wisata-->
     <string name="wisata_this">Ini Layout Wisata</string>
+>>>>>>> a052071bc2c498caf1f9c2af4687ee194ea7004e
 
     <!-- Form Gallery-->
     <string name="gallery_this">Ini Layout Gallery</string>
